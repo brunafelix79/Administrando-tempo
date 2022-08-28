@@ -2,8 +2,8 @@
 var session_seconds = "00";
 var session_minutes = 25;
 
-var click_sound = new Audio("/pomodoro/assets/music/click.mp3");
-var bell = new Audio("/pomodoro/assets/music/bell.mp3");
+var click_sound = new Audio("assets/music/click.mp3");
+var bell = new Audio("assets/music/bell.mp3");
 
 // Starting template for the timer
 function template() {
